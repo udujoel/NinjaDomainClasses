@@ -2,14 +2,14 @@
 
 namespace NinjaDomainClasses
 {
-    public class Ninja
+   public class Ninja
     {
         public int id { get; set; }
         public string Name { get; set; }
         public bool ServedInOniwaban { get; set; }
         public Clan Clan { get; set; }
         public int ClanId { get; set; }
-        public List<NinaEquipment> EquipmentOwned
+        public List<NinjaEquiptment> EquipmentOwned
         { get; set; }
 
     }
@@ -29,4 +29,6 @@ namespace NinjaDomainClasses
         public EquipmentType Type { get; set; }
         public Ninja Ninja { get; set; }
     }
+
+
 }
