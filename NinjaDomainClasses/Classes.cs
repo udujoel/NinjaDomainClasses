@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace NinjaDomain.Classes
 {
-   public class Ninja
+    public class Ninja
     {
         public int id { get; set; }
         public string Name { get; set; }
@@ -27,6 +28,7 @@ namespace NinjaDomain.Classes
         public int Id { get; set; }
         public string Name { get; set; }
         public EquipmentType Type { get; set; }
+        [Required]
         public Ninja Ninja { get; set; }
     }
 
