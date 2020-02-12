@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-using NinjaDomainClasses;
+using NinjaDomain.Classes;
 
 namespace NinjaDomain.DataModel
 {

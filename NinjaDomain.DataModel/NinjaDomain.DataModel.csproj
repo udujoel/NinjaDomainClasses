@@ -53,9 +53,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NinjaDomainClasses\NinjaDomainClasses.csproj">
+    <ProjectReference Include="..\NinjaDomainClasses\NinjaDomain.Classes.csproj">
       <Project>{A0F9C3AF-5792-463C-8706-42AE17FB3A54}</Project>
-      <Name>NinjaDomainClasses</Name>
+      <Name>NinjaDomain.Classes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

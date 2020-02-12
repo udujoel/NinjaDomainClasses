@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NinjaDomainClasses
+namespace NinjaDomain.Classes
 {
    public class Ninja
     {
